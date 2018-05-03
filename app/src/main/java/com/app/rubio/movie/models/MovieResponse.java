@@ -7,7 +7,7 @@ import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 
 /**
- * Created by Rubio on 25/03/2018.
+ * Created by Rubian Llanos 2018
  */
 
 public class MovieResponse extends RealmObject {
@@ -19,15 +19,6 @@ public class MovieResponse extends RealmObject {
     public MovieResponse() {
     }
 
-    public MovieResponse(String movieResponseId, RealmList<Movie> movieList) {
-        this.movieResponseId = movieResponseId;
-        this.movieList = movieList;
-    }
-
-    public String getMovieResponseId() {
-        return movieResponseId;
-    }
-
 
     public void setMovieResponseId(String movieResponseId) {
         this.movieResponseId = movieResponseId;
@@ -35,10 +26,6 @@ public class MovieResponse extends RealmObject {
 
     public RealmList<Movie> getMovieList() {
         return movieList;
-    }
-
-    public void setMovieList(RealmList<Movie> mMovieList) {
-        this.movieList = mMovieList;
     }
 
 }

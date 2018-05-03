@@ -5,6 +5,7 @@ import android.databinding.ObservableField;
 import android.databinding.ObservableInt;
 import android.support.annotation.NonNull;
 import android.view.View;
+import android.widget.Toast;
 
 import com.app.rubio.movie.api.RestMovieService;
 import com.app.rubio.movie.app.AppController;
@@ -52,8 +53,11 @@ public class MovieViewModel extends Observable {
     private void initDataSource() {
         if (validateNetwork())
             fetchMovieList();
-        else
+        else{
+            Toast.makeText(context,"Necesitas internet para tener contenido actualizado",Toast.LENGTH_SHORT).show();
             getMoviesByCategory();
+        }
+
     }
 
     private void initTitleToolbar() {

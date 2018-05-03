@@ -11,7 +11,7 @@ import io.reactivex.schedulers.Schedulers;
 import io.realm.Realm;
 
 /**
- * Created by Rubio on 25/03/2018.
+ * Created by Rubian Llanos 2018.
  */
 
 public class AppController extends Application {
@@ -34,8 +34,6 @@ public class AppController extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-      /*  RealmConfiguration realmConfiguration = new RealmConfiguration.Builder().build();
-        Realm.setDefaultConfiguration(realmConfiguration);*/
         Realm.init(this);
         AppController.context = getApplicationContext();
     }
@@ -47,10 +45,6 @@ public class AppController extends Application {
         return restMovieService;
     }
 
-    public void setRestMovieService(RestMovieService restMovieService) {
-        this.restMovieService = restMovieService;
-    }
-
     public Scheduler subscribeScheduler() {
         if (scheduler == null) {
             scheduler = Schedulers.io();
@@ -58,7 +52,4 @@ public class AppController extends Application {
         return scheduler;
     }
 
-    public void setScheduler(Scheduler scheduler) {
-        this.scheduler = scheduler;
-    }
 }

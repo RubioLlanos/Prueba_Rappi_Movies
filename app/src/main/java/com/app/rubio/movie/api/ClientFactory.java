@@ -9,7 +9,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import static com.app.rubio.movie.utils.Constant.BASE_URL;
 
 /**
- * Created by Rubio on 24/03/2018.
+ * Created by Rubian Llanos Abril de 2018.
  */
 
 public class ClientFactory {

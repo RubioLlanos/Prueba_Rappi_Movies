@@ -66,13 +66,11 @@ public class ListMovieActivity extends AppCompatActivity implements MovieViewMod
 
     }
 
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
-
 
     @Override
     protected void onDestroy() {
