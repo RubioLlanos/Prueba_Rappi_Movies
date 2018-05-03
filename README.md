@@ -41,4 +41,9 @@ Es una clase que se encarga de gestionar el modelo Movie y los layouts que se si
 Es una clase que se encarga de crear una instancia del modelo Movie y a su vez hereda de BaseObservable esto con el fin de sincronizar directamente el layout ítem_lis_movie.xml a través del databinding que conecta directamente con los métodos getters and setters de esta clase. 
 ### MovieDetailViewModel: 
 Esta clase tiene la misma responsabilidad de la clase ItemViewModel pero para el layout activity_detail_movie.xml
+## En qué consiste el principio de responsabilidad única? Cuál es su propósito?
+Hace referencia a uno de los 5 principios SOLID. Se basa en tener objetos que que realicen solo una cosa, es decir que su funcionalidad sea única. Este principio busca que en una clase no hayan varias capas de la pp involucradas, que tenga la menor cantidad de metodos publicos sin relación entre ellos, que no tenga demasiados imports en tre otros.
+## Qué características tiene, según su opinión, un “buen” código o código limpio?
+Un buen código debe estar bien separado, cada clase haciendo lo que le corresponde y nada más, por otro lado debe tener estandares definidos de nomenclatura, debe ser facil de leer, flexible a los cambios es decir que de modificar un objeto o un metodo dicho cambio obstruya todo un proyecto. Por ultimo y  no menos importante un buen código debe estar escrito basado en una arquitectura amigable deacuerdo a la tecnología que se esté utilizando, por ejemplo en Android las arquitectras limpias como lo son MVVM o MVP.  
+
 
