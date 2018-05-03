@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Prueba_Rappi.iml" filepath="$PROJECT_DIR$/Prueba_Rappi.iml" />
+      <module fileurl="file://C:\Users\Rubio\Documents\AndroidApps\prueba_rappi_movies\Prueba_Rappi.iml" filepath="C:\Users\Rubio\Documents\AndroidApps\prueba_rappi_movies\Prueba_Rappi.iml" />
       <module fileurl="file://C:\Users\Rubio\Documents\AndroidApps\Prueba_Rappi\Prueba_Rappi_Movies.iml" filepath="C:\Users\Rubio\Documents\AndroidApps\Prueba_Rappi\Prueba_Rappi_Movies.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prueba_rappi_movies.iml" filepath="$PROJECT_DIR$/prueba_rappi_movies.iml" />
     </modules>
   </component>
 </project>
