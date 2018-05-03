@@ -22,7 +22,6 @@ Se encarga de mostrar la lista de películas de acuerdo a la categoría elegida 
 ### DetailMovieActivity 
 Se encarga de mostrar el detalle de cada película.
 ![detail](https://user-images.githubusercontent.com/38786536/39595287-a4473acc-4ed4-11e8-8ecb-13771764a0fa.JPG)
-
 ### MovieAdapter
 Se encarga de crear el adaptador para mostrar la lista de películas en ListMovieActivity.
 # utils: 
