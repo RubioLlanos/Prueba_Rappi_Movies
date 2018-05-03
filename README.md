@@ -15,6 +15,7 @@ Este modelo se encarga responder una lista del modelo Movie, es decir una lista 
 En esta capa se encuentran los Activity y dapters de la aplicación. 
 ### MainActivity
 Se encarga de mostrar los métodos de acceso a la lista de películas desde las categorías. 
+![main](https://user-images.githubusercontent.com/38786536/39595061-07029c70-4ed4-11e8-9a4f-7e129e45361b.JPG)
 ### ListMovieActivity 
 Se encarga de mostrar la lista de películas de acuerdo a la categoría elegida desde el MainActivity. 
 ### DetailMovieActivity 
