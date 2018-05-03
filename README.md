@@ -18,8 +18,11 @@ Se encarga de mostrar los métodos de acceso a la lista de películas desde las 
 ![main](https://user-images.githubusercontent.com/38786536/39595061-07029c70-4ed4-11e8-9a4f-7e129e45361b.JPG)
 ### ListMovieActivity 
 Se encarga de mostrar la lista de películas de acuerdo a la categoría elegida desde el MainActivity. 
+![lista](https://user-images.githubusercontent.com/38786536/39595252-8c1a5754-4ed4-11e8-989e-1bc5b7ee7ce2.JPG)
 ### DetailMovieActivity 
 Se encarga de mostrar el detalle de cada película.
+![detail](https://user-images.githubusercontent.com/38786536/39595287-a4473acc-4ed4-11e8-8ecb-13771764a0fa.JPG)
+
 ### MovieAdapter
 Se encarga de crear el adaptador para mostrar la lista de películas en ListMovieActivity.
 # utils: 
